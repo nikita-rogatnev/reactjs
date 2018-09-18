@@ -1,0 +1,45 @@
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 0.1rem;
+    height: 0.1rem;
+    margin: -0.1rem;
+    padding: 0;
+    border: 0;
+}
+
+@mixin wrapper {
+    @include flex-row;
+    position: relative;
+    width: 100%;
+
+    &__wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1.5rem;
+
+        @media (min-width: $medium-up) {
+            width: $screen-m-min;
+        }
+
+        @media (min-width: $large-up) {
+            width: $screen-l-min;
+        }
+
+        @media (min-width: $extra-large-up) {
+            width: $screen-xl-min;
+        }
+    }
+}

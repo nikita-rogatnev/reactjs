@@ -1,7 +1,10 @@
-@import '../app/app.scss';
+@import '../../styles/styles.scss';
 
 .aside {
-    @include wrapper;
+    &__wrapper {
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
 
     @media (min-width: $medium-up) {
         width: calc(100% / 3);

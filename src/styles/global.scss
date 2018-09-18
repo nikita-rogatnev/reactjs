@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    outline: 0.1rem dashed lightgrey;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: $html-font-size;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: $html-font-color;
+    background-color: $html-background-color;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+
+    -webkit-font-smoothing: antialiased;
+    font-variant-numeric: proportional-nums;
+    font-feature-settings: "pnum";
+}
+
+.visually-hidden {
+    @include visually-hidden;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: $color-accent;
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+    }
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
