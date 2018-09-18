@@ -1,3 +1,7 @@
+@import '../app/app.scss';
+
 .section {
-  background: blue;
+    @include wrapper;
+
+    width: 100%;
 }

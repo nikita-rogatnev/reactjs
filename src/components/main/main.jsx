@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
+import styles from './main.scss';
 
-function Main() {
-    return (
-        <main className="main">
-            main
-        </main>
-    )
+import Section from '../section/section';
+
+class Main extends Component {
+    render() {
+        return (
+            <main className={styles.main}>
+                <Section/>
+            </main>
+        )
+    }
 }
 
 export default Main;

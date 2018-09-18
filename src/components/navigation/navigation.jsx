@@ -1,39 +1,51 @@
-import React from 'react';
+import React, {Component} from 'react';
 import styles from './navigation.scss';
 
 import Logo from '../logo/logo';
 
-const linksList = [
-    {
-        link: '/articles',
-        label: 'Articles'
+let navigationLink = {
+    'item': {
+        'text': 'Link 1',
+        'url': '#',
+        'target': '_self'
     },
-    {
-        link: '/contacts',
-        label: 'Contacts'
+    'item 2': {
+        'text': 'Link 2',
+        'url': '#',
+        'target': '_self'
     },
-    {
-        link: '/posts',
-        label: 'Posts'
+    'item 3': {
+        'text': 'Link 3',
+        'url': '#',
+        'target': '_self'
     }
-];
+};
 
 
-
-function Navigation() {
-    return (
-        <nav className={styles.navigation}>
-            <Logo/>
-
-            <ul className={styles.navigation__menu}>
-                <li className={styles.navigation__item}>
-                    <a className={styles.navigation__link}>
-
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    )
+class Navigation extends Component {
+    render() {
+        return (
+            <nav className={styles.navigation}>
+                <Logo/>
+                <ul className="navigation__menu">
+                    <li className="navigation__menu-item">
+                        <a href={navigationLink.item.url}
+                           target={navigationLink.item.target}
+                           className="navigation__menu-link">
+                            {navigationLink.item.text}
+                        </a>
+                    </li>
+                    <li className="navigation__menu-item">
+                        <a href={navigationLink.item.url}
+                           target={navigationLink.item.target}
+                           className="navigation__menu-link">
+                            {navigationLink.item.text}
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        )
+    }
 }
 
 export default Navigation;
