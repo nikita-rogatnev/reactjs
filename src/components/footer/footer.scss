@@ -1,3 +1,5 @@
-.footer{
-  background: black;
+@import '../app/app.scss';
+
+.footer {
+    @include wrapper;
 }

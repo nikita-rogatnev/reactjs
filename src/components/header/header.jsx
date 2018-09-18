@@ -6,7 +6,9 @@ import Navigation from '../navigation/navigation';
 function Header() {
     return (
         <header className={styles.header}>
-            <Navigation/>
+            <div className={styles.header__wrapper}>
+                <Navigation/>
+            </div>
         </header>
     )
 }
