@@ -1,16 +1,7 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
+import App from './components/app/app';
+import registerServiceWorker from './registerServiceWorker';
 
-import Header from './components/header/header';
-import Main from './components/main/main';
-import Footer from './components/footer/footer';
-
-function App() {
-    return [
-        <Header key='header'/>,
-        <Main key='main'/>,
-        <Footer key='footer'/>
-    ]
-}
-
-render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
+registerServiceWorker();
