@@ -54,7 +54,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
-  "homepage": "http://swanie21.github.io/sass-css-modules-webpack",
+  "homepage": "https://github.com/rogatnev-nikita/reactjs",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
