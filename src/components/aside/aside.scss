@@ -1,0 +1,9 @@
+@import '../app/app.scss';
+
+.aside {
+    @include wrapper;
+
+    @media (min-width: $medium-up) {
+        width: calc(100% / 3);
+    }
+}

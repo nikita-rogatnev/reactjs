@@ -2,8 +2,4 @@
 
 .header {
     @include wrapper;
-
-    &__wrapper {
-        @include flex-row;
-    }
 }
