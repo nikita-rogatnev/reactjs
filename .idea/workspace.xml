@@ -197,12 +197,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.predeploy">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build-css" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build-css" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -239,9 +248,11 @@
       <item itemvalue="npm.build-css" />
       <item itemvalue="npm.watch-css" />
       <item itemvalue="npm.predeploy" />
+      <item itemvalue="npm.deploy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.watch-css" />
