@@ -1,13 +1,14 @@
-@import '../app/app.scss';
+@import '../../app/app.scss';
 
-.navigation {
+.footer-navigation {
     @include flex-col;
-    align-items: center;
+    justify-content: center;
     width: 100%;
+    padding: 1.5rem 0;
 
     &__menu {
         @include flex-col;
-        flex-grow: 1;
+        justify-content: center;
         margin: 0;
     }
 
@@ -32,7 +33,6 @@
 
         &__menu {
             @include flex-row;
-            justify-content: flex-end;
         }
 
         &__menu-item {

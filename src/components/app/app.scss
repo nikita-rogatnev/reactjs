@@ -14,13 +14,11 @@ $bold-font-weight: 700;
 $color-accent: rgba(237, 64, 64, 1);
 $color-accent-dark: $color-accent;
 $color-accent-light: $color-accent;
-
 $color-primary: #121214;
 $color-primary-dark: $color-primary;
 $color-primary-light: $color-primary;
 $color-primary-text-dark: rgba(0, 0, 0, 1);
 $color-primary-text-light: rgba(255, 255, 255, 1);
-
 $color-secondary: rgba(235, 224, 202, 0.8);
 $color-secondary-dark: $color-secondary;
 $color-secondary-light: $color-secondary;
@@ -37,7 +35,6 @@ $screen-s-min: 320px;
 $screen-m-min: 768px;
 $screen-l-min: 1170px;
 $screen-xl-min: 1550px;
-
 $medium-up: $screen-m-min;
 $large-up: $screen-l-min;
 $extra-large-up: $screen-xl-min;
@@ -55,18 +52,21 @@ $extra-large-up: $screen-xl-min;
 
 @mixin visually-hidden {
     position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
     width: 0.1rem;
     height: 0.1rem;
     margin: -0.1rem;
-    border: 0;
     padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    border: 0;
+}
+
+.visually-hidden {
+    @include visually-hidden;
 }
 
 @mixin wrapper {
     @include flex-row;
-
     position: relative;
     width: 100%;
 
@@ -89,9 +89,10 @@ $extra-large-up: $screen-xl-min;
     }
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-
     outline: 0.1rem dashed lightgrey;
 }
 
@@ -102,19 +103,18 @@ html {
 
 html,
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
-
-    background-color: $html-background-color;
     color: $html-font-color;
+    background-color: $html-background-color;
 }
 
 body {
-    font-family: Arial, sans-serif;
     overflow-x: hidden;
     max-width: 100%;
     min-height: 100vh;
+    font-family: Arial, sans-serif;
     font-size: 1.4rem;
     line-height: 1.2;
 
@@ -143,5 +143,3 @@ ul {
     padding: 0;
     list-style-type: none;
 }
-
-

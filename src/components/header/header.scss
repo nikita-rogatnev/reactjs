@@ -3,7 +3,7 @@
 .header {
     @include wrapper;
 
-    &__wrapper{
+    &__wrapper {
         @include flex-row;
     }
 }
