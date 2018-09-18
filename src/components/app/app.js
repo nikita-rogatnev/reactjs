@@ -1,17 +1,26 @@
-import React, { Component } from 'react';
-import logo from './images/logo.svg';
+import React, {Component} from 'react';
 import styles from './app.scss';
 
+import Header from '../header/header';
+import Main from '../main/main';
+import Footer from '../footer/footer';
+
 class App extends Component {
-  render() {
-    return (
-      <div className={styles.app}>
-        <div className={styles.app__header}>
-          <h2>Congrats, you now have Sass & CSS Modules in your React project! <span role="img" aria-label="emoji">😎</span></h2>
-        </div>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className={styles.app}>
+                <header className={styles.header}>
+                    <Header/>
+                </header>
+                <main className={styles.main}>
+                    <Main/>
+                </main>
+                <footer className={styles.footer}>
+                    <Footer/>
+                </footer>
+            </div>
+        );
+    }
 }
 
 export default App;

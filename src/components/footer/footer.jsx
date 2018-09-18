@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Footer() {
-    return (
-        <footer className="footer">
-            footer
-        </footer>
-    )
+import styles from './footer.scss';
+
+class Footer extends Component {
+    render() {
+        return (
+            <footer className={styles.footer}>
+                footer-text
+            </footer>
+        );
+    }
 }
 
 export default Footer;
