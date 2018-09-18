@@ -9,15 +9,9 @@ class App extends Component {
     render() {
         return (
             <div className={styles.app}>
-                <header className={styles.header}>
-                    <Header/>
-                </header>
-                <main className={styles.main}>
-                    <Main/>
-                </main>
-                <footer className={styles.footer}>
-                    <Footer/>
-                </footer>
+                <Header/>
+                <Main/>
+                <Footer/>
             </div>
         );
     }
