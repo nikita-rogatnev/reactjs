@@ -3,5 +3,7 @@
 .header {
     @include wrapper;
 
-    height: 30rem;
+    &__wrapper{
+        @include flex-row;
+    }
 }

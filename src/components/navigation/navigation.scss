@@ -1,2 +1,45 @@
+@import '../app/app.scss';
+
 .navigation {
+    @include flex-col;
+
+    width: 100%;
+    align-items: center;
+
+    &__menu {
+        @include flex-col;
+
+        margin: 0;
+        flex-grow: 1;
+    }
+
+    &__item {
+        text-transform: uppercase;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link{
+        text-transform: uppercase;
+    }
+
+    @media (min-width: $medium-up) {
+        @include flex-row;
+
+        &__menu {
+            @include flex-row;
+
+            justify-content: flex-end;
+        }
+
+        &__item {
+            margin: 0 1.5rem;
+        }
+    }
 }
