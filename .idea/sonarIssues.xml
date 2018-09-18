@@ -18,12 +18,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/config/env.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/jest/cssTransform.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/jest/fileTransform.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/paths.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/polyfills.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/config/template-types.jsx">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/config/webpack.config.dev.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/webpack.config.prod.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/webpackDevServer.config.js">
           <value>
             <set />
           </value>
