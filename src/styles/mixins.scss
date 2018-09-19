@@ -27,22 +27,26 @@
     @include flex-row;
     position: relative;
     width: 100%;
+    padding: 0;
 
     &__wrapper {
         width: 100%;
         margin: 0 auto;
-        padding: $html-content-padding;
+        padding: 0 $html-content-padding;
 
         @media (min-width: $medium-up) {
             width: $screen-m-min;
+            padding: $html-content-padding;
         }
 
         @media (min-width: $large-up) {
             width: $screen-l-min;
+            padding: $html-content-padding;
         }
 
         @media (min-width: $extra-large-up) {
             width: $screen-xl-min;
+            padding: $html-content-padding;
         }
     }
 }

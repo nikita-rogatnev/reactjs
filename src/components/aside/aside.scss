@@ -1,10 +1,8 @@
 @import '../../styles/styles.scss';
 
 .aside {
-    &__wrapper {
-        margin: 0 auto;
-        padding: $html-content-padding;
-    }
+    display: none;
+    padding: $html-content-padding;
 
     @media (min-width: $medium-up) {
         width: calc(100% / 3);
