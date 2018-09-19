@@ -14,8 +14,8 @@
     }
 
     &__menu-item {
-        text-transform: uppercase;
         margin: 0 0.5rem;
+        text-transform: uppercase;
 
         &:first-child {
             margin-left: 0;
@@ -27,14 +27,14 @@
     }
 
     &__menu-link {
+        text-transform: uppercase;
         font-size: 0;
         line-height: 0;
-        text-transform: uppercase;
 
         &:hover,
         &:active {
-            color: $color-primary-text-light;
             text-decoration: none;
+            color: $color-primary-text-light;
         }
     }
 

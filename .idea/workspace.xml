@@ -2,80 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5efb5694-486d-47bb-b0a6-19b72f17a639" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-class/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-class/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-class/create-react-class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-class/create-react-class.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-class/factory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-class/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-class/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/dist/react.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/KeyEscapeUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/LinkedStateMixin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/PooledClass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/React.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependencies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependenciesUMDShim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactBaseClasses.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactChildren.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeDevtool.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHookUMDShim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentWithPureRenderMixin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwnerUMDShim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMFactories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementSymbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactFragment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactLink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactNoopUpdateQueue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocationNames.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypesSecret.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactStateSetters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionChildMapping.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionEvents.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDEntry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDShim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddonsUMDEntry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/canDefineProperty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/checkReactTypeSpec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/createClass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/flattenChildren.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/getIteratorFn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/getNextDebugID.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/getNextDebugIDUMDShim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/lowPriorityWarning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/onlyChild.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/reactProdInvariant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/shallowCompare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/sliceChildren.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/traverseAllChildren.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/lib/update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/react.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-social/footer-social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-social/footer-social.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -116,8 +43,8 @@
       <file leaf-file-name="footer-sponsors.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="380">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -457,12 +384,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537291497265</updated>
       <workItem from="1537291498767" duration="26796000" />
-      <workItem from="1537362051815" duration="6390000" />
+      <workItem from="1537362051815" duration="6493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33186000" />
+    <option name="totallyTimeSpent" value="33289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -472,8 +399,8 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32893" />
       <window_info anchor="right" id="Run" order="4" sideWeight="0.49141347" visible="true" weight="0.26037195" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="right" id="Terminal" order="3" sideWeight="0.5085865" side_tool="true" visible="true" weight="0.26037195" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49536425" visible="true" weight="0.2081545" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" sideWeight="0.5085865" side_tool="true" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49536425" visible="true" weight="0.2081545" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="SonarQube" order="3" />
@@ -813,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="380">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -14,8 +14,8 @@
     }
 
     &__menu-item {
-        text-transform: uppercase;
         margin: 0 0.5rem;
+        text-transform: uppercase;
 
         &:first-child {
             margin-left: 0;
@@ -26,15 +26,13 @@
         }
     }
 
-    &__menu-link {
-        font-size: 0;
-        line-height: 0;
-    }
-
+    &__menu-link,
     &__menu-img {
         width: 9rem;
         height: 5rem;
         background: black;
+        font-size: 0;
+        line-height: 0;
     }
 
     @media (min-width: $medium-up) {
