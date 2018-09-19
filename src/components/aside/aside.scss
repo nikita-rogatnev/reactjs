@@ -3,7 +3,7 @@
 .aside {
     &__wrapper {
         margin: 0 auto;
-        padding: 1.5rem;
+        padding: $html-content-padding;
     }
 
     @media (min-width: $medium-up) {
