@@ -2,13 +2,13 @@
 
 .navigation {
     @include flex-col;
-    align-items: center;
-    width: 100%;
 
     &__menu {
         @include flex-col;
         flex-grow: 1;
         margin: 0;
+        padding: 0;
+        width: 100%;
     }
 
     &__menu-item {
@@ -33,6 +33,7 @@
         &__menu {
             @include flex-row;
             justify-content: flex-end;
+            padding: 0;
         }
 
         &__menu-item {

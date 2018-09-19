@@ -2,15 +2,12 @@
 
 .footer-copyright {
     @include flex-col;
-    justify-content: center;
-    width: 100%;
-    padding: $html-content-padding 0;
-
-    &__link {
-        margin-left: 0.5rem;
-    }
 
     @media (min-width: $medium-up) {
         @include flex-row;
+
+        &__link {
+            margin-left: 0.5rem;
+        }
     }
 }

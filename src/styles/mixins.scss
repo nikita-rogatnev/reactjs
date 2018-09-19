@@ -1,12 +1,15 @@
 @mixin flex-row {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    padding: $html-content-padding 0;
 }
 
 @mixin flex-col {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: $html-content-padding 0;
 }
 
 @mixin visually-hidden {

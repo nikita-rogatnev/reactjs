@@ -1,12 +1,5 @@
 @import '../../../styles/styles.scss';
 
 .footer-sponsors {
-    @include flex-col;
-    justify-content: center;
-    width: 100%;
-    padding: $html-content-padding 0;
-
-    @media (min-width: $medium-up) {
-        @include flex-row;
-    }
+    @include flex-row;
 }
