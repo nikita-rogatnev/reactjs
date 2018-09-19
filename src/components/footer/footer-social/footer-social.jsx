@@ -5,21 +5,25 @@ import styles from './footer-social.scss';
 
 let footerSocial = [
     {
+        'icon': 'FaVk',
         'text': 'Vkontakte',
         'url': 'https://vk.com/',
         'target': '_blank'
     },
     {
+        'icon': 'FaFacebook',
         'text': 'Facebook',
         'url': 'https://www.facebook.com/',
         'target': '_blank'
     },
     {
+        'icon': 'FaInstagram',
         'text': 'Instagram',
         'url': 'https://www.instagram.com/',
         'target': '_blank'
     },
     {
+        'icon': 'FaTwitter',
         'text': 'Twitter',
         'url': 'https://twitter.com/',
         'target': '_blank'
@@ -27,7 +31,7 @@ let footerSocial = [
 ];
 
 function getArrayItems(item, index) {
-    let arrayItems = (
+    let arrayItem = (
         <li className="footer-social__menu-item" key={index}>
             <a href={item.url}
                target={item.target}
@@ -38,7 +42,7 @@ function getArrayItems(item, index) {
         </li>
     );
 
-    return arrayItems;
+    return arrayItem;
 }
 
 class FooterSocial extends Component {

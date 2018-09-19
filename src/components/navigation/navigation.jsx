@@ -3,24 +3,37 @@ import styles from './navigation.scss';
 
 import Logo from '../logo/logo';
 
-let navigationLink = {
-    'item': {
+let navigationLink = [
+    {
         'text': 'Link 1',
         'url': '#',
         'target': '_self'
     },
-    'item 2': {
+    {
         'text': 'Link 2',
         'url': '#',
         'target': '_self'
     },
-    'item 3': {
+    {
         'text': 'Link 3',
         'url': '#',
         'target': '_self'
     }
-};
+];
 
+function getArrayItems(item, index) {
+    let arrayItem = (
+        <li className="navigation__menu-item">
+            <a href={item.url}
+               target={item.target}
+               className="navigation__menu-link">
+                {item.text}
+            </a>
+        </li>
+    );
+
+    return arrayItem;
+}
 
 class Navigation extends Component {
     render() {
@@ -28,20 +41,7 @@ class Navigation extends Component {
             <nav className={styles.navigation}>
                 <Logo/>
                 <ul className="navigation__menu">
-                    <li className="navigation__menu-item">
-                        <a href={navigationLink.item.url}
-                           target={navigationLink.item.target}
-                           className="navigation__menu-link">
-                            {navigationLink.item.text}
-                        </a>
-                    </li>
-                    <li className="navigation__menu-item">
-                        <a href={navigationLink.item.url}
-                           target={navigationLink.item.target}
-                           className="navigation__menu-link">
-                            {navigationLink.item.text}
-                        </a>
-                    </li>
+                    {navigationLink.map(getArrayItems)}
                 </ul>
             </nav>
         )

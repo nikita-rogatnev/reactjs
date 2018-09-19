@@ -1,23 +1,37 @@
 import React, {Component} from 'react';
 import styles from './footer-navigation.scss';
 
-let footerNavigation = {
-    'item': {
+let footerNavigation = [
+    {
         'text': 'Link 1',
         'url': '#',
         'target': '_self'
     },
-    'item 2': {
+    {
         'text': 'Link 2',
         'url': '#',
         'target': '_self'
     },
-    'item 3': {
+    {
         'text': 'Link 3',
         'url': '#',
         'target': '_self'
     }
-};
+];
+
+function getArrayItems(item, index) {
+    let arrayItem = (
+        <li className="footer-navigation__menu-item" key={index}>
+            <a href={item.url}
+               target={item.target}
+               className="footer-navigation__menu-link">
+                {item.text}
+            </a>
+        </li>
+    );
+
+    return arrayItem;
+}
 
 class FooterNavigation extends Component {
     render() {
@@ -26,13 +40,7 @@ class FooterNavigation extends Component {
                 <div className="footer-navigation__wrapper">
                     <h2 className="visually-hidden">Footer Navigation</h2>
                     <ul className="footer-navigation__menu">
-                        <li className="footer-navigation__menu-item">
-                            <a href={footerNavigation.item.url}
-                               target={footerNavigation.item.target}
-                               className="footer-navigation__menu-link">
-                                {footerNavigation.item.text}
-                            </a>
-                        </li>
+                        {footerNavigation.map(getArrayItems)}
                     </ul>
                 </div>
             </section>
