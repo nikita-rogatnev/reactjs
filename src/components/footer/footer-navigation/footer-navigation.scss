@@ -1,7 +1,11 @@
 @import '../../../styles/styles.scss';
 
 .footer-navigation {
-    @include flex-col;
+    @include wrapper;
+
+    &__wrapper {
+        @include flex-col;
+    }
 
     &__menu {
         @include flex-col;
@@ -28,8 +32,9 @@
     }
 
     @media (min-width: $medium-up) {
-        @include flex-row;
-        justify-content: center;
+        &__wrapper {
+            @include flex-row;
+        }
 
         &__menu {
             @include flex-row;

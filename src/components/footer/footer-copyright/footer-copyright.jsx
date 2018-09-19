@@ -12,15 +12,17 @@ class FooterCopyright extends Component {
     render() {
         return (
             <section className="footer-copyright">
-                <h2 className="visually-hidden">Footer Copyright</h2>
-                <small className="footer-copyright__year">
-                    &copy; {footerCopyright.year}
-                </small>
-                <a href={footerCopyright.url}
-                   target={footerCopyright.target}
-                   className="footer-copyright__link">
-                    {footerCopyright.text}
-                </a>
+                <div className="footer-copyright__wrapper">
+                    <h2 className="visually-hidden">Footer Copyright</h2>
+                    <small className="footer-copyright__year">
+                        &copy; {footerCopyright.year}
+                    </small>
+                    <a href={footerCopyright.url}
+                       target={footerCopyright.target}
+                       className="footer-copyright__link">
+                        {footerCopyright.text}
+                    </a>
+                </div>
             </section>
         )
     }

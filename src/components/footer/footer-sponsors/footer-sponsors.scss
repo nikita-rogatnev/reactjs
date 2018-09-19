@@ -1,5 +1,15 @@
 @import '../../../styles/styles.scss';
 
 .footer-sponsors {
-    @include flex-row;
+    @include wrapper;
+
+    &__wrapper {
+        @include flex-col;
+    }
+
+    @media (min-width: $medium-up) {
+        &__wrapper {
+            @include flex-row;
+        }
+    }
 }

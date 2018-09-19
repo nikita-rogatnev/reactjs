@@ -1,6 +1,6 @@
 @import '../../../styles/styles.scss';
 
-.footer-copyright {
+.footer-social {
     @include wrapper;
 
     &__wrapper {
@@ -10,10 +10,6 @@
     @media (min-width: $medium-up) {
         &__wrapper {
             @include flex-row;
-        }
-
-        &__link {
-            margin-left: 0.5rem;
         }
     }
 }
