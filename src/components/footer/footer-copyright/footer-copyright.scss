@@ -7,13 +7,18 @@
         @include flex-col;
     }
 
-    @media (min-width: $medium-up) {
-        &__wrapper {
-            @include flex-row;
-        }
+    &__content {
+        @include flex-col;
+    }
 
-        &__link {
-            margin-left: 0.5rem;
+    &__text {
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+
+    @media (min-width: $medium-up) {
+        &__year {
+            margin-right: 0.5rem;
         }
     }
 }

@@ -3,7 +3,8 @@ import styles from './footer-copyright.scss';
 
 let footerCopyright = {
     'year': '2018',
-    'text': 'Rogatnev Nikita',
+    'author': 'Rogatnev Nikita',
+    'text': 'All rights reserved. All other trademarks may be the property of their respective holders',
     'url': 'https://rogatnev.ru',
     'target': '_blank'
 };
@@ -14,13 +15,18 @@ class FooterCopyright extends Component {
             <section className="footer-copyright">
                 <div className="footer-copyright__wrapper">
                     <h2 className="visually-hidden">Footer Copyright</h2>
-                    <small className="footer-copyright__year">
-                        &copy; {footerCopyright.year}
-                    </small>
+                    <div className="footer-copyright__content">
+                        <small className="footer-copyright__year">
+                            &copy; {footerCopyright.year}
+                        </small>
+                        <small className="footer-copyright__text">
+                            {footerCopyright.text}
+                        </small>
+                    </div>
                     <a href={footerCopyright.url}
                        target={footerCopyright.target}
                        className="footer-copyright__link">
-                        {footerCopyright.text}
+                        {footerCopyright.author}
                     </a>
                 </div>
             </section>

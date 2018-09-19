@@ -11,8 +11,6 @@
         @include flex-col;
         justify-content: center;
         width: 100%;
-        margin: 0;
-        padding: 0;
     }
 
     &__menu-item {
@@ -38,7 +36,6 @@
 
         &__menu {
             @include flex-row;
-            padding: 0;
         }
 
         &__menu-item {
