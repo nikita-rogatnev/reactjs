@@ -9,30 +9,27 @@
 
     &__menu {
         @include flex-row;
-        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
         width: 100%;
     }
 
     &__menu-item {
-        margin: 0 0.5rem;
+        width: 25%;
+        margin: 0.5rem;
         text-transform: uppercase;
-
-        &:first-child {
-            margin-left: 0;
-        }
-
-        &:last-child {
-            margin-right: 0;
-        }
     }
 
-    &__menu-link,
-    &__menu-img {
-        width: 9rem;
-        height: 5rem;
-        background: black;
+    &__menu-link {
         font-size: 0;
         line-height: 0;
+    }
+
+    &__menu-img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background: black;
     }
 
     @media (min-width: $medium-up) {
@@ -40,10 +37,25 @@
             @include flex-row;
         }
 
-        @media (min-width: $medium-up) {
-            &__menu-item {
-                margin: 0 $html-content-padding;
+        &__menu {
+            justify-content: center;
+        }
+
+        &__menu-item {
+            width: auto;
+            margin: 0 $html-content-padding;
+
+            &:first-child {
+                margin-left: 0;
             }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &__menu-img {
+            width: 9rem;
         }
     }
 }

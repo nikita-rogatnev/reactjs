@@ -25,9 +25,38 @@ let footerSponsors = [
         'text': 'Sponsor 4',
         'url': '#',
         'target': '_blank'
+    },
+    {
+        'img': '',
+        'text': 'Sponsor 5',
+        'url': '#',
+        'target': '_blank'
+    },
+    {
+        'img': '',
+        'text': 'Sponsor 6',
+        'url': '#',
+        'target': '_blank'
+    },
+    {
+        'img': '',
+        'text': 'Sponsor 7',
+        'url': '#',
+        'target': '_blank'
+    },
+    {
+        'img': '',
+        'text': 'Sponsor 8',
+        'url': '#',
+        'target': '_blank'
+    },
+    {
+        'img': '',
+        'text': 'Sponsor 9',
+        'url': '#',
+        'target': '_blank'
     }
 ];
-
 
 function getArrayItems(item, index) {
     let arrayItem = (
