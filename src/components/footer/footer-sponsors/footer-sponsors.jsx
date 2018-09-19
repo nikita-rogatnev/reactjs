@@ -6,6 +6,7 @@ class FooterSponsors extends Component {
         return (
             <section className="footer-sponsors">
                 <h2 className="visually-hidden">Footer Sponsors</h2>
+                Sponsors
             </section>
         )
     }

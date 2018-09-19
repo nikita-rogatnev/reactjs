@@ -6,6 +6,7 @@ class FooterSocials extends Component {
         return (
             <section className="footer-socials">
                 <h2 className="visually-hidden">Footer Socials</h2>
+                Socials
             </section>
         )
     }

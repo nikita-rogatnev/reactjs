@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5efb5694-486d-47bb-b0a6-19b72f17a639" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aside/aside.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-copyright/footer-copyright.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-copyright/footer-copyright.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,8 +50,20 @@
       <file leaf-file-name="footer-navigation.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer-socials.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.scss">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -65,17 +71,23 @@
       <file leaf-file-name="footer-socials.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer-sponsors.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer-sponsors.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,15 +95,6 @@
       <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/global.scss">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="mixins.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/mixins.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="18" selection-start-line="23" selection-end-line="24" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
@@ -103,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -185,11 +188,11 @@
         <option value="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.scss" />
         <option value="$PROJECT_DIR$/src/components/app/app.js" />
         <option value="$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.jsx" />
-        <option value="$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.jsx" />
-        <option value="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx" />
         <option value="$PROJECT_DIR$/src/components/footer/footer-copyright/footer-copyright.jsx" />
         <option value="$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.scss" />
         <option value="$PROJECT_DIR$/src/styles/variables.scss" />
+        <option value="$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.jsx" />
+        <option value="$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx" />
       </list>
     </option>
   </component>
@@ -238,6 +241,45 @@
               <item name="reactjs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+              <item name="footer-copyright" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+              <item name="footer-navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+              <item name="footer-socials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+              <item name="footer-sponsors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
@@ -361,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537291497265</updated>
-      <workItem from="1537291498767" duration="23297000" />
+      <workItem from="1537291498767" duration="23381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23297000" />
+    <option name="totallyTimeSpent" value="23381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -665,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -710,27 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/footer/footer-copyright/footer-copyright.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -762,6 +776,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/footer-navigation/footer-navigation.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/footer-socials/footer-socials.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/footer-sponsors/footer-sponsors.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
