@@ -5,6 +5,7 @@ import Header from '../header/header';
 import Main from '../main/main';
 import Aside from '../aside/aside';
 import Footer from '../footer/footer';
+import Modal from '../modal/modal';
 
 class App extends Component {
     render() {
@@ -14,6 +15,7 @@ class App extends Component {
                 <Main/>
                 <Aside/>
                 <Footer/>
+                <Modal/>
             </div>
         );
     }
