@@ -4,22 +4,22 @@ import styles from './footer-social.scss';
 
 let footerSocial = [
     {
-        'text': 'Vkontakte',
+        'link': 'Vkontakte',
         'url': 'https://vk.com/',
         'target': '_blank'
     },
     {
-        'text': 'Facebook',
+        'link': 'Facebook',
         'url': 'https://www.facebook.com/',
         'target': '_blank'
     },
     {
-        'text': 'Instagram',
+        'link': 'Instagram',
         'url': 'https://www.instagram.com/',
         'target': '_blank'
     },
     {
-        'text': 'Twitter',
+        'link': 'Twitter',
         'url': 'https://twitter.com/',
         'target': '_blank'
     }

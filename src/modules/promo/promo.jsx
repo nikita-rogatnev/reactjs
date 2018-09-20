@@ -3,7 +3,7 @@ import styles from './promo.scss';
 
 function Promo() {
     return (
-        <section className={styles.promo}>
+        <section className="promo">
             <div className="promo__wrapper">
                 promo
             </div>

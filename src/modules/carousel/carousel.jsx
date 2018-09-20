@@ -3,7 +3,7 @@ import styles from './carousel.scss';
 
 function Carousel() {
     return (
-        <section className={styles.carousel}>
+        <section className="carousel">
             <div className="carousel__wrapper">
                 carousel
             </div>

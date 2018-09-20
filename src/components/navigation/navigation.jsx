@@ -1,21 +1,20 @@
 import React, {Component} from 'react';
 import styles from './navigation.scss';
-
 import Logo from '../logo/logo';
 
 let navigationLink = [
     {
-        'text': 'Link 1',
+        'link': 'Link 1',
         'url': '#',
         'target': '_self'
     },
     {
-        'text': 'Link 2',
+        'link': 'Link 2',
         'url': '#',
         'target': '_self'
     },
     {
-        'text': 'Link 3',
+        'link': 'Link 3',
         'url': '#',
         'target': '_self'
     }
@@ -41,13 +40,10 @@ class Navigation extends Component {
     };
 
     render() {
-        let navigationLinks = this.state.isOpen &&
-            <ul className="navigation__menu">{navigationLink.map(getArrayItems)}</ul>
-
         return (
-            <nav className={styles.navigation}>
+            <nav className="navigation">
                 <Logo/>
-                {navigationLinks}
+                {navigationLink.map(getArrayItems)}
             </nav>
         )
     }

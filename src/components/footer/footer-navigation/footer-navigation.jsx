@@ -3,17 +3,17 @@ import styles from './footer-navigation.scss';
 
 let footerNavigation = [
     {
-        'text': 'Link 1',
+        'link': 'Link 1',
         'url': '#',
         'target': '_self'
     },
     {
-        'text': 'Link 2',
+        'link': 'Link 2',
         'url': '#',
         'target': '_self'
     },
     {
-        'text': 'Link 3',
+        'link': 'Link 3',
         'url': '#',
         'target': '_self'
     }

@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from './main.scss';
-
 import Section from '../section/section';
 
 function Main() {
     return (
-        <main className={styles.main}>
+        <main className="main">
             <Section/>
         </main>
     )

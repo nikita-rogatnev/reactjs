@@ -3,8 +3,8 @@ import styles from './form.scss';
 
 function Form() {
     return (
-        <form className={styles.form}>
-
+        <form className="form">
+            form
         </form>
     )
 }

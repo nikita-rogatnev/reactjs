@@ -3,7 +3,7 @@ import styles from './aside.scss';
 
 function Aside() {
     return (
-        <aside className={styles.aside}>
+        <aside className="aside">
             aside block
         </aside>
     )

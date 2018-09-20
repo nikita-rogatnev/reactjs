@@ -3,7 +3,7 @@ import styles from './footer-copyright.scss';
 
 let footerCopyright = {
     'year': '2018',
-    'author': 'Rogatnev Nikita',
+    'link': 'Rogatnev Nikita',
     'text': 'All rights reserved. All other trademarks may be the property of their respective holders',
     'url': 'https://rogatnev.ru',
     'target': '_blank'
@@ -25,7 +25,7 @@ function FooterCopyright() {
                 <a href={footerCopyright.url}
                    target={footerCopyright.target}
                    className="footer-copyright__link">
-                    {footerCopyright.author}
+                    {footerCopyright.link}
                 </a>
             </div>
         </section>

@@ -4,55 +4,55 @@ import styles from './footer-sponsors.scss';
 let footerSponsors = [
     {
         'img': '',
-        'text': 'Sponsor 1',
+        'link': 'Sponsor 1',
         'url': '#',
         'target': '_blank'
     },
     {
         'img': '',
-        'text': 'Sponsor 2',
+        'link': 'Sponsor 2',
         'url': '#',
         'target': '_blank'
     },
     {
         'img': '',
-        'text': 'Sponsor 3',
+        'link': 'Sponsor 3',
         'url': '#',
         'target': '_blank'
     },
     {
         'img': '',
-        'text': 'Sponsor 4',
+        'link': 'Sponsor 4',
         'url': '#',
         'target': '_blank'
     },
     {
         'img': '',
-        'text': 'Sponsor 5',
+        'link': 'Sponsor 5',
         'url': '#',
         'target': '_blank'
     },
     {
         'img': '',
-        'text': 'Sponsor 6',
+        'link': 'Sponsor 6',
         'url': '#',
         'target': '_blank'
     },
     {
         'img': '',
-        'text': 'Sponsor 7',
+        'link': 'Sponsor 7',
         'url': '#',
         'target': '_blank'
     },
     {
         'img': '',
-        'text': 'Sponsor 8',
+        'link': 'Sponsor 8',
         'url': '#',
         'target': '_blank'
     },
     {
         'img': '',
-        'text': 'Sponsor 9',
+        'link': 'Sponsor 9',
         'url': '#',
         'target': '_blank'
     }

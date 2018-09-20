@@ -3,7 +3,7 @@ import styles from './newsletter.scss';
 
 function Newsletter() {
     return (
-        <section className={styles.newsletter}>
+        <section className="newsletter">
             <div className="newsletter__wrapper">
                 newsletter
             </div>
