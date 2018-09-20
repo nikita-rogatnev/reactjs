@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './promo.scss';
 
-function promo() {
+function Promo() {
     return (
         <section className={styles.promo}>
             <div className="promo__wrapper">
@@ -11,4 +11,4 @@ function promo() {
     )
 }
 
-export default promo;
+export default Promo;

@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {IoIosMenu, IoIosCloseCircleOutline} from 'react-icons/io';
 import styles from './navigation.scss';
 
 import Logo from '../logo/logo';
@@ -48,12 +47,6 @@ class Navigation extends Component {
         return (
             <nav className={styles.navigation}>
                 <Logo/>
-                <button onClick={this.handleClick} type="button" className="navigation__toggle">
-                    {this.state.isOpen
-                        ? (<IoIosCloseCircleOutline className="navigation__toggle-svg"/>)
-                        : (<IoIosMenu className="navigation__toggle-svg"/>)
-                    }
-                </button>
                 {navigationLinks}
             </nav>
         )

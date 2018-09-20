@@ -1,29 +1,24 @@
 import React, {Component} from 'react';
-import {FaVk, FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa';
-
+import {AccessAlarm} from '@material-ui/icons';
 import styles from './footer-social.scss';
 
 let footerSocial = [
     {
-        'icon': 'FaVk',
         'text': 'Vkontakte',
         'url': 'https://vk.com/',
         'target': '_blank'
     },
     {
-        'icon': 'FaFacebook',
         'text': 'Facebook',
         'url': 'https://www.facebook.com/',
         'target': '_blank'
     },
     {
-        'icon': 'FaInstagram',
         'text': 'Instagram',
         'url': 'https://www.instagram.com/',
         'target': '_blank'
     },
     {
-        'icon': 'FaTwitter',
         'text': 'Twitter',
         'url': 'https://twitter.com/',
         'target': '_blank'
@@ -36,7 +31,7 @@ function getArrayItems(item, index) {
             <a href={item.url}
                target={item.target}
                className="footer-social__menu-link">
-                <FaVk className="footer-social__menu-svg"/>
+                <AccessAlarm className="footer-social__menu-svg"/>
                 <span className="visually-hidden">{item.text}</span>
             </a>
         </li>
