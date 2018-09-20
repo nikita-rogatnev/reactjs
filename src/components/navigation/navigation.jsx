@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {IoIosMenu, IoIosCloseCircleOutline} from 'react-icons/io';
 import styles from './navigation.scss';
 
 import Logo from '../logo/logo';
@@ -23,7 +24,7 @@ let navigationLink = [
 
 function getArrayItems(item, index) {
     let arrayItem = (
-        <li className="navigation__menu-item">
+        <li className="navigation__menu-item" key={index}>
             <a href={item.url}
                target={item.target}
                className="navigation__menu-link">
@@ -36,15 +37,32 @@ function getArrayItems(item, index) {
 }
 
 class Navigation extends Component {
+    state = {
+        isOpen: true
+    };
+
     render() {
+        let navigationLinks = this.state.isOpen &&
+            <ul className="navigation__menu">{navigationLink.map(getArrayItems)}</ul>
+
         return (
             <nav className={styles.navigation}>
                 <Logo/>
-                <ul className="navigation__menu">
-                    {navigationLink.map(getArrayItems)}
-                </ul>
+                <button onClick={this.handleClick} type="button" className="navigation__toggle">
+                    {this.state.isOpen
+                        ? (<IoIosCloseCircleOutline className="navigation__toggle-svg"/>)
+                        : (<IoIosMenu className="navigation__toggle-svg"/>)
+                    }
+                </button>
+                {navigationLinks}
             </nav>
         )
+    }
+
+    handleClick = () => {
+        this.setState({
+            isOpen: !this.state.isOpen
+        })
     }
 }
 

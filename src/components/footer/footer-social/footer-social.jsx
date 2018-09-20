@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FaVk, FaFacebookF, FaInstagram, FaTwitter} from 'react-icons/fa';
+import {FaVk, FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa';
 
 import styles from './footer-social.scss';
 

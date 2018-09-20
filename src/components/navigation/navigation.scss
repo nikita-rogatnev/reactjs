@@ -1,7 +1,9 @@
 @import '../../styles/styles.scss';
 
 .navigation {
-    @include flex-col;
+    @include flex-row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 0;
 
     &__menu {
@@ -28,9 +30,20 @@
         text-transform: uppercase;
     }
 
+    &__toggle {
+        @include h-button-clean;
+    }
+
+    &__toggle-svg {
+        width: 3rem;
+        height: 3rem;
+        fill: $color-primary-text-light;
+    }
+
     @media (min-width: $medium-up) {
         @include flex-row;
         padding: 0;
+        flex-wrap: nowrap;
 
         &__menu {
             @include flex-row;
@@ -40,6 +53,10 @@
 
         &__menu-item {
             margin: 0 1.5rem;
+        }
+
+        &__toggle {
+            display: none;
         }
     }
 }

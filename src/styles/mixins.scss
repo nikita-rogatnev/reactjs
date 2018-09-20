@@ -21,6 +21,29 @@
     border: 0;
 }
 
+@mixin h-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: $html-content-padding;
+    text-transform: uppercase;
+    color: $color-primary-text-light;
+    border: 0;
+    background: $color-accent;
+    font-weight: $bold-font-weight;
+
+    @media (min-width: $medium-up) {
+    }
+}
+
+@mixin h-button-clean {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
 @mixin wrapper {
     @include flex-row;
     position: relative;

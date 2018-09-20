@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import styles from './footer-copyright.scss';
 
 let footerCopyright = {
@@ -9,29 +9,27 @@ let footerCopyright = {
     'target': '_blank'
 };
 
-class FooterCopyright extends Component {
-    render() {
-        return (
-            <section className="footer-copyright">
-                <div className="footer-copyright__wrapper">
-                    <h2 className="visually-hidden">Footer Copyright</h2>
-                    <div className="footer-copyright__content">
-                        <small className="footer-copyright__year">
-                            &copy; {footerCopyright.year}
-                        </small>
-                        <small className="footer-copyright__text">
-                            {footerCopyright.text}
-                        </small>
-                    </div>
-                    <a href={footerCopyright.url}
-                       target={footerCopyright.target}
-                       className="footer-copyright__link">
-                        {footerCopyright.author}
-                    </a>
+function FooterCopyright() {
+    return (
+        <section className="footer-copyright">
+            <div className="footer-copyright__wrapper">
+                <h2 className="visually-hidden">Footer Copyright</h2>
+                <div className="footer-copyright__content">
+                    <small className="footer-copyright__year">
+                        &copy; {footerCopyright.year}
+                    </small>
+                    <small className="footer-copyright__text">
+                        {footerCopyright.text}
+                    </small>
                 </div>
-            </section>
-        )
-    }
+                <a href={footerCopyright.url}
+                   target={footerCopyright.target}
+                   className="footer-copyright__link">
+                    {footerCopyright.author}
+                </a>
+            </div>
+        </section>
+    )
 }
 
 export default FooterCopyright;
